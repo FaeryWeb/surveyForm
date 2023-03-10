@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+
+    <head>
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="survey-form">
+            <fieldset>
+                <label for="name" id="name-label">Name <input type="text" id="name" required
+                        placeholder="Enter your name"></label>
+                <label for="email" id="email-label">Email <input type="email" id="email" required
+                        placeholder="Enter your Email"></label>
+                <label for="number" id="number-label">Age (optional) <input type="number" id="number" min="0" max="120"
+                        placeholder="Age"></label>
+            </fieldset>
+            <fieldset>
+                <p>Which option best describes your current role?</p> <select id="dropdown">
+                    <option>Select current role</option>
+                    <option>Student</option>
+                    <option>Full Time Job</option>
+                    <option>Full Time Learner</option>
+                    <option>Prefer not to say</option>
+                    <option>Other</option>
+                </select>
+                <p>Would you recommend freeCodeCamp to a friend?</p> <input type="radio" name="recommend" id="yes"
+                    value="definitely" class="inline"><label for="yes">Definitely</label>
+                <input type="radio" name="recommend" id="maybe" value="maybe" class="inline"><label
+                    for="maybe">Maybe</label>
+                <input type="radio" name="recommend" id="no" value="notsure" class="inline"><label for="no">Not
+                    sure</label>
+
+                <p>What would you like to see improved? (Check all that apply)</p> <input type="checkbox" id="frontend"
+                    value="frontend" class="inline"><label for="frontend">Front End</label>
+                <input type="checkbox" id="backend" value="backend" class="inline"><label for="backend">Back End</label>
+                <input type="checkbox" id="fullstack" value="fullstack" class="inline"><label for="fullstack">Full
+                    Stack</label>
+            </fieldset>
+            <fieldset>
+                <p>Any comments or suggestions</p> <textarea placeholder="Enter your comment here..."
+                    id="comment"></textarea>
+            </fieldset>
+            <button id="submit">Submit</button>
+        </form>
+    </body>
+
+    </html>

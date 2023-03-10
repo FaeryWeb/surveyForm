@@ -1,0 +1,55 @@
+body {
+    background-color: #393053;
+}
+
+h1,
+p {
+    text-align: center;
+    margin: 0 auto;
+    color: #e3dac9;
+}
+
+form {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #635985;
+    padding: 10px;
+    border-radius: 0.5em;
+}
+
+form p {
+    text-align: left;
+}
+
+fieldset {
+    border: none
+}
+
+label {
+    color: #e3dac9;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    border: none;
+    color: #0f121e;
+}
+
+button {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    background-color: #41c056;
+    border: none;
+    color: #e3dac9;
+    font-weight: bold;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
